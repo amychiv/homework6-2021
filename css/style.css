@@ -100,7 +100,7 @@ header {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+
   }
 
   .nav_links {
@@ -142,9 +142,9 @@ header {
 
   .pricing {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-end;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
   }
 
   .gallery {
@@ -153,6 +153,8 @@ header {
 
   .card {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     border: 2px solid #45ADDD;
     flex-basis: 250px;
   }
