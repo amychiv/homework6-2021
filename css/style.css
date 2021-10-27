@@ -179,14 +179,6 @@ header {
     flex-basis: 250px;
   }
 
-  /* /* li:first-child::before {
-    content: "👍 ";
-  }
-
-  li:last-child::before {
-    content: "👍 ";
-  } */
-
   .card li:nth-child(2n)::after {
     content: "👍";
   } 
