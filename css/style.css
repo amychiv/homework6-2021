@@ -188,10 +188,10 @@ header {
   } */
 
   .card li:nth-child(2n)::after {
-    content: "👍 ";
+    content: "👍";
   } 
 
-  .card li:nth-child(odd)::after {
-    content: "👍 ";
+  .card li:nth-child(odd)::before {
+    content: "👍";
   } 
 }
